@@ -1,0 +1,71 @@
+*{
+	font-family: verdana;
+}
+body{
+	background: url('coffee1.jpg') no-repeat;
+	background-size: cover;
+	font-size: 1.2em;
+}
+.wrapper{
+	background: rgba(255,255,255,.8);
+	background-blend-mode: overlay;
+	width: 50%;
+	margin: auto;
+	padding: 20px 40px 40px;
+}
+li{
+	padding: 20px;
+}
+input{
+	padding: 10px;
+	background: #fff;
+	font-size: 14px;
+}
+
+#addButton{
+	background: black;
+	color: white;
+	margin-left: 15px;
+}
+#newTask{
+	width: 83%;
+	margin-top: 30px;
+}
+#countTasks{
+	font-style: italic;
+	font-size: 16px;
+}
+
+.edit, .delete{
+	display: inline-block;
+	margin: 0 10px;
+	float: right;
+	color: #fff;
+}
+.delete{
+	background: red;
+}
+.edit{
+	background: orange;
+}
+
+
+ol li input[type="text"] {
+	display: none;
+}
+ol li.editMode input[type="text"] {
+	display: inline-block;
+	width: 60%;
+	float: left;
+}
+ol li.editMode label {
+	display: none;
+}
+ol li.editMode .edit{
+	background: green;
+}
+
+
+
+
+
